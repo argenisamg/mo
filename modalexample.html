@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+    /* Fondo modal: negro con opacidad al 50% */
+    .modal {
+    display: none; /* Por defecto, estará oculto */
+    position: fixed; /* Posición fija */
+    z-index: 1; /* Se situará por encima de otros elementos de la página*/
+    padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Algura completa */
+    overflow: auto; /* Se activará el scroll si es necesario */
+    background-color: rgba(0,0,0,0.5); /* Color negro con opacidad del 50% */
+    }
+
+    /* Ventana o caja modal */
+    .contenido-modal {
+    position: relative; /* Relativo con respecto al contenedor -modal- */
+    background-color: white;
+    margin: auto; /* Centrada */
+    padding: 20px;
+    width: 60%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s
+    }
+
+    /* Animación */
+    @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+    }
+
+    @keyframes animarsuperior {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+    }
+
+    /* Botón cerrar */
+    .close {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    </style>
+    </head>
+
+    
+<body>
+  <h2>Ventana modal</h2>
+
+  <button id="abrirModal">Abrir Modal</button>
+
+  <!-- Ventana modal, por defecto no visiblel -->
+  <div id="ventanaModal" class="modal">
+    <div class="contenido-modal">
+        <span class="cerrar">&times;</span>
+        <h2>Ventana modal</h2>
+        <p>Esto es el texto de la ventana</p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    // Ventana modal
+    var modal = document.getElementById("ventanaModal");
+
+    // Botón que abre el modal
+    var boton = document.getElementById("abrirModal");
+
+    // Hace referencia al elemento <span> que tiene la X que cierra la ventana
+    var span = document.getElementsByClassName("cerrar")[0];
+
+    // Cuando el usuario hace click en el botón, se abre la ventana
+    boton.addEventListener("click",function() {
+    modal.style.display = "block";
+    });
+
+    // Si el usuario hace click en la x, la ventana se cierra
+    span.addEventListener("click",function() {
+    modal.style.display = "none";
+    });
+
+    // Si el usuario hace click fuera de la ventana, se cierra.
+    window.addEventListener("click",function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+/*Este codigo CSS contiene los elementos para la paginacion, independientemente de la tabla que muestra
+el contenido. 
+Hice un Grid layout para acomodar todos los elementos de la paginacion, donde tambien se incluye a
+la tabla.*/
+
+/*Este elemento es el contenedor principal de toda la paginacion:*/
+.dataTables_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5fr, 1fr);
+    width: 100vw;
+    /* color: #565758; */
+}
+
+/*Este elemento contiene el div de la lista desplegable quemuestra el total de filas por pagina:*/
+.dataTables_length {     
+    grid-column: 2 / 3;
+    justify-self: center;    
+    margin-left: 4.5rem;
+}
+
+/*Esta linea contiene el div de la busqueda con el campo de texto*/
+.dataTables_filter {   
+    grid-column: 4 / 5;
+    justify-self: start;
+}
+
+.table {
+    grid-column: 1 / 6;
+    width: 100%;
+}
+
+/*El campo de texto para la busqueda en la DataTable:*/
+.dataTables_filter  input {
+    height: 3rem;
+    width: 100%;
+}
+
+/*Coneitne el texto "Showing 1 to 10 of 70 entries" de la
+paginacion*/
+.dataTables_info {
+    grid-column: 1 / 6;
+    justify-self: center;
+    padding-bottom: 1rem;    
+}
+
+.dataTables_paginate {
+    grid-column: 1 / 6;
+    justify-self: center;     
+}
+
+/*Div que contiene toda la paginacion, es decir, los
+botones*/
+.paging_simple_numbers {
+    background: #04309800;
+    transition: .5s; 
+}
+/* Este es el original de DataTables css*/
+.dataTables_paginate .paginate_button {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: .4em 1em .4em 1em;   
+    margin-right: .7rem;  
+    text-align: center;
+    font-size: 1.8rem;
+    text-decoration: none !important;
+    cursor: pointer;    
+    /* border: 1px solid rgb(255, 255, 255); */
+    border-radius: 2px;
+    background: #00aeff;
+    color: whitesmoke;
+    transition: transform .3s ease-in-out;
+  }  
+  
+  .dataTables_paginate .paginate_button:hover {       
+    transform: scale(0.9); 
+}  
+
+  /*Responsive by AMG*/
+  /* Variables CSS */
+:root {
+    --font-size: 1.4rem;
+    --button-padding: .3em .7em;
+    --button-font-size: 1.4rem;
+    --button-margin-right: 4px;
+    --input-width: 15rem;
+    --input-font-size: 1.5rem;
+  }
+  
+  /* Estilos CSS */
+  .dataTables_paginate .paginate_button {
+    min-width: 1.5em;
+    padding: var(--button-padding);
+    margin-right: var(--button-margin-right);
+    font-size: var(--button-font-size);
+  }
+  
+  .dataTables_length {
+    font-size: var(--font-size);
+    width: 9rem;
+    max-width: 100%;
+  }
+  
+  .dataTables_filter {
+    font-size: var(--input-font-size);
+    width: var(--input-width);
+    max-width: 100%;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 1081px) {
+    .dataTables_paginate .paginate_button {
+      font-size: var(--button-font-size);
+    }
+    .dataTables_length {
+      font-size: var(--font-size);
+    }
+    .dataTables_filter {
+      font-size: var(--input-font-size);
+    }
+  }
+  
+  @media screen and (max-width: 651px) {
+    :root {
+      --font-size: 1.2rem;
+      --button-padding: .2em .6em;
+      --button-font-size: 1.2rem;
+      --input-font-size: 1.2rem;
+    }
+    .table {       
+        font-size: 1rem;
+        padding: 0;
+        border-radius: .5rem;      
+        width: 40rem;
+        max-width: 100%;
+        margin: 0 .5rem;
+      }        
+      .table thead {  
+        display: contents;
+        width: 100%;
+        max-width: 100%;      
+                     
+      }
+      .table th {        
+        padding: .5rem 1rem;
+        font-size: 1.2rem;       
+      }
+  }
+  
+  @media screen and (max-width: 413px) {
+    :root {
+      --font-size: 1.2rem;
+      --button-padding: .2em .6em;
+      --button-font-size: 1.2rem;
+      --input-width: 9rem;
+      --input-font-size: 1.2rem;
+    }
+  }
+  

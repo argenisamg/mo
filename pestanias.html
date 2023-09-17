@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interfaz con paginación y pestañas</title>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+
+  <style>
+        .tabs {
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+        }
+
+        .tablink {
+        background-color: #f1f1f1;
+        float: left;
+        border: 1px solid #ccc;
+        border-bottom: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        }
+
+        .tablink:hover {
+        background-color: #ddd;
+        }
+
+        .tabcontent {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ccc;
+        }
+
+        .pagination {
+        text-align: center;
+        margin-top: 20px;
+        }
+
+        .pagination a {
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        }
+
+        .pagination a:hover {
+        background-color: #ddd;
+        }
+
+        .active {
+        background-color: #ccc;
+        }
+
+        .show {
+        display: block;
+        }
+
+  </style>
+</head>
+<body>
+  <div class="tabs">
+    <button class="tablink" onclick="openPage('Page1')">Line 1</button>
+    <button class="tablink" onclick="openPage('Page2')">Line 2</button>
+    <button class="tablink" onclick="openPage('Page3')">Line 3</button>
+    <button class="tablink" onclick="openPage('Page4')">Line 4</button>
+    <button class="tablink" onclick="openPage('Page5')">Line 5</button>
+  </div>
+
+  <div id="Page1" class="tabcontent" page="1">
+    <h3>Line Content 1</h3>
+    <p>Results MO Comparison Line 1...</p>
+  </div>
+
+  <div id="Page2" class="tabcontent" page="2">
+    <h3>Line Content 2</h3>
+    <p>Results MO Comparison Line 2...</p>
+  </div>
+
+  <div id="Page3" class="tabcontent" page="3">
+    <h3>Line Content 3</h3>
+    <p>Results MO Comparison Line 3...</p>
+  </div>
+
+  <div id="Page4" class="tabcontent" page="4">
+    <h3>Line Content 4</h3>
+    <p>Results MO Comparison Line 4...</p>
+  </div>
+
+  <div id="Page5" class="tabcontent" page="5">
+    <h3>Line Content 5</h3>
+    <p>Results MO Comparison Line 5...</p>
+  </div>
+
+  <div class="pagination">
+    <a href="#" onclick="changePage(-1)">« Anterior</a>
+    <a href="#" onclick="changePage(1)">Siguiente »</a>
+  </div>
+
+  <script src="paginacion.js"></script>
+</body>
+</html>

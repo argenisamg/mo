@@ -1,0 +1,56 @@
+[
+{"upn":"M1198370-001$GV01","mo":"000010081983","position":1,"cpn":"023.100O7.0002","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":2,"cpn":"023.100O7.0002","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":3,"cpn":"023.100O7.0002","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":4,"cpn":"023.100O7.0002","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":5,"cpn":"023.100O7.0002","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":6,"cpn":"023.100O7.0002","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":7,"cpn":"B34.01U1N.0001","createdate":"09-MAY-23","category":"WA","description":"Fan,Fan-Sink,Heat Sink,Heat Pipe"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":8,"cpn":"BMC MB","createdate":"09-MAY-23","category":"06","description":"BMC MAC ADDRESS"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":9,"cpn":"CUSTOMER 2759","createdate":"09-MAY-23","category":"P6","description":"L6 PN VALIDATION"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":10,"cpn":"CUSTOMER 8370","createdate":"09-MAY-23","category":"P7","description":"L10 PN VALIDATION"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":11,"cpn":"M1037380-006$E","createdate":"09-MAY-23","category":"AL","description":"Modem\/Lan, Ethernet and Network Card"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":12,"cpn":"M1037380-006$E_MAC","createdate":"09-MAY-23","category":"MC","description":"Unit MAC address"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":13,"cpn":"M1039573-001","createdate":"09-MAY-23","category":"75","description":"RISER CARD"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":14,"cpn":"M1039577-001","createdate":"09-MAY-23","category":"54","description":"TPM card"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":15,"cpn":"M1081188-001$E","createdate":"09-MAY-23","category":"A-","description":"Add-on Card"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":16,"cpn":"M1083467-001$F0","createdate":"09-MAY-23","category":"A-","description":"Add-on Card"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":17,"cpn":"M1083467-001$F0","createdate":"09-MAY-23","category":"A-","description":"Add-on Card"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":18,"cpn":"M1089834-002$D40","createdate":"09-MAY-23","category":"BM","description":"Main Board"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":19,"cpn":"M1102906-001$A","createdate":"09-MAY-23","category":"PC","description":"CPU"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":20,"cpn":"M1102906-001$A","createdate":"09-MAY-23","category":"PC","description":"CPU"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":23,"cpn":"M1122759-001$WS00","createdate":"09-MAY-23","category":"S6","description":"Z box, B+,B++, B\/U, Tri-parts"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":24,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":25,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":26,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":27,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":28,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":29,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":30,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":31,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":32,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":33,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":34,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":35,"cpn":"M1194278-001$A","createdate":"09-MAY-23","category":"MS","description":"SDIMM,RIMM,DIMM,SODIMM,Memory Continuity Module,VRAM,SRAM"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":36,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":37,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":38,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":39,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":40,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":41,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":42,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":43,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":44,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":45,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":46,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":47,"cpn":"M1194278-001$A_V","createdate":"09-MAY-23","category":"49","description":"MANUFACTURE"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":48,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":49,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":50,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":51,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":52,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":53,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":54,"cpn":"M1204900-001$A","createdate":"09-MAY-23","category":"OM","description":"Optical Storage"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":55,"cpn":"M1238046-001$A","createdate":"09-MAY-23","category":"GP","description":"Power Supply"}
+,{"upn":"M1198370-001$GV01","mo":"000010081983","position":56,"cpn":"MS ASSET TAG","createdate":"09-MAY-23","category":"4A","description":"BLADE ASSET TAG"}
+]

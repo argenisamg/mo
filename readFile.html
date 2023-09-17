@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Leer archivo txt
+
+    <script type="text/javascript">
+        const nombreArchivo = 'rks.txt'; // Nombre del archivo a leer                
+
+fetch(nombreArchivo)
+  .then(response => response.text())
+  .then(data => {
+    // Dividir las filas del archivo en un array
+    const filas = data.split('\n');
+
+    // Eliminar espacios en blanco al inicio y final de cada fila
+    const filasLimpias = filas.map(fila => fila.trim());
+
+    // Separar las filas en grupos de 500
+    const grupos = [];
+    for (let i = 0; i < filasLimpias.length; i += 500) {
+      const grupo = filasLimpias.slice(i, i + 500);
+      grupos.push(grupo);
+    }
+
+    // Formatear cada fila con comillas simples
+    const filasFormateadas = grupos.map(grupo => grupo.map(fila => `'${fila}'`));
+
+    // Unir cada grupo en una cadena separada por comas
+    const cadenasFinales = filasFormateadas.map(grupo => grupo.join(','));
+
+    // Mostrar las cadenas resultantes
+    cadenasFinales.forEach(cadenaFinal => {
+      console.log(cadenaFinal);
+    });
+  })
+  .catch(error => {
+    console.error('Error al leer el archivo:', error);
+  });
+
+
+
+    </script>
+</body>
+</html>
